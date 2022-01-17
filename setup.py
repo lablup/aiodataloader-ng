@@ -20,28 +20,31 @@ def get_version(filename):
 version = get_version('aiodataloader.py')
 
 tests_require = [
-    'pytest>=3.6', 'pytest-cov', 'coveralls', 'mock', 'pytest-asyncio'
+    'pytest>=6.2.6',
+    'pytest-cov',
+    'coveralls',
+    'mock',
+    'pytest-asyncio'
 ]
 
 setup(
-    name='aiodataloader',
+    name='aiodataloader-ng',
     version=version,
     description='Asyncio DataLoader implementation for Python',
     long_description=open('README.rst').read(),
-    url='https://github.com/syrusakbary/aiodataloader',
-    download_url='https://github.com/syrusakbary/aiodataloader/releases',
-    author='Syrus Akbary',
-    author_email='me@syrusakbary.com',
+    url='https://github.com/lablup/aiodataloader-ng',
+    download_url='https://github.com/lablup/aiodataloader/releases',
+    author='Syrus Akbary, Joongi Kim and other contributors',
+    author_email='joongi@lablup.com',
     license='MIT',
     classifiers=[
         'Development Status :: 5 - Production/Stable',
         'Intended Audience :: Developers',
         'Topic :: Software Development :: Libraries',
         'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.5',
-        'Programming Language :: Python :: 3.6',
-        'Programming Language :: Python :: 3.7',
         'Programming Language :: Python :: 3.8',
+        'Programming Language :: Python :: 3.9',
+        'Programming Language :: Python :: 3.10',
         'License :: OSI Approved :: MIT License',
     ],
     keywords='concurrent future deferred aiodataloader',
@@ -49,4 +52,5 @@ setup(
     extras_require={
         'test': tests_require,
     },
-    tests_require=tests_require, )
+    tests_require=tests_require,
+)
