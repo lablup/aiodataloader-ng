@@ -20,7 +20,7 @@ def get_version(filename):
 version = get_version('aiodataloader.py')
 
 tests_require = [
-    'pytest>=6.2.6',
+    'pytest>=6.2.5',
     'pytest-cov',
     'coveralls',
     'mock',
