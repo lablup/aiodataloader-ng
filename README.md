@@ -10,8 +10,8 @@ DataLoader is a generic utility to be used as part of your application's data
 fetching layer to provide a simplified and consistent API over various remote
 data sources such as databases or web services via batching and caching.
 
-[![Build Status](https://travis-ci.org/syrusakbary/aiodataloader.svg)](https://travis-ci.org/syrusakbary/aiodataloader)
-[![Coverage Status](https://coveralls.io/repos/syrusakbary/aiodataloader/badge.svg?branch=master&service=github)](https://coveralls.io/github/syrusakbary/aiodataloader?branch=master)
+[![Build Status](https://travis-ci.org/lablup/aiodataloader-ng.svg)](https://travis-ci.org/lablup/aiodataloader-ng)
+[![Coverage Status](https://coveralls.io/repos/lablup/aiodataloader-ng/badge.svg?branch=master&service=github)](https://coveralls.io/github/lablup/aiodataloader-ng?branch=master)
 
 A port of the "Loader" API originally developed by [@schrockn][] at Facebook in
 2010 as a simplifying force to coalesce the sundry key-value store back-end

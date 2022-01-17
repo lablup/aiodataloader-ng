@@ -508,7 +508,7 @@ Video Source Code Walkthrough
 
 **DataLoader Source Code Walkthrough (YouTube):**
 
-.. |Build Status| image:: https://travis-ci.org/syrusakbary/aiodataloader.svg
-   :target: https://travis-ci.org/syrusakbary/aiodataloader
-.. |Coverage Status| image:: https://coveralls.io/repos/syrusakbary/aiodataloader/badge.svg?branch=master&service=github
-   :target: https://coveralls.io/github/syrusakbary/aiodataloader?branch=master
+.. |Build Status| image:: https://travis-ci.org/lalbup/aiodataloader-ng.svg
+   :target: https://travis-ci.org/lablup/aiodataloader-ng
+.. |Coverage Status| image:: https://coveralls.io/repos/lablup/aiodataloader-ng/badge.svg?branch=master&service=github
+   :target: https://coveralls.io/github/lablup/aiodataloader-ng?branch=master
