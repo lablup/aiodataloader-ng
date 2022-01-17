@@ -1,5 +1,11 @@
 # Asyncio DataLoader
 
+**NOTICE:** This is a fork of aiodataloader by Syrus Akbary to maintain a custom release cycle
+to match with our product roadmap.  Of course, all changes made by Lablup Inc. and
+its members are made available with the same open source terms of the MIT license.
+If the upstream repository resumes to a faster release cycle with latest contributions,
+we will follow it.
+
 DataLoader is a generic utility to be used as part of your application's data
 fetching layer to provide a simplified and consistent API over various remote
 data sources such as databases or web services via batching and caching.
