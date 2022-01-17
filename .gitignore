@@ -66,3 +66,10 @@ target/
 
 # OS X
 .DS_Store
+
+# vim
+.swp
+.*.swp
+
+# pyenv
+.python-version
