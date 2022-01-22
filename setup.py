@@ -19,6 +19,10 @@ def get_version(filename):
 
 version = get_version('aiodataloader.py')
 
+build_require = [
+    'wheel>=0.37.1',
+    'twine>=3.7.1',
+]
 lint_require = [
     'flake8>=3.9.0',
 ]
@@ -56,6 +60,7 @@ setup(
     keywords='concurrent future deferred aiodataloader',
     py_modules=['aiodataloader'],
     extras_require={
+        'build': build_require,
         'lint': lint_require,
         'typecheck': typecheck_require,
         'test': test_require,
