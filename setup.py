@@ -19,12 +19,18 @@ def get_version(filename):
 
 version = get_version('aiodataloader.py')
 
-tests_require = [
+lint_require = [
+    'flake8>=3.9.0',
+]
+test_require = [
     'pytest>=6.2.5',
     'pytest-cov',
     'coveralls',
     'mock',
     'pytest-asyncio'
+]
+typecheck_require = [
+    'mypy>=0.930',
 ]
 
 setup(
@@ -50,7 +56,8 @@ setup(
     keywords='concurrent future deferred aiodataloader',
     py_modules=['aiodataloader'],
     extras_require={
-        'test': tests_require,
+        'lint': lint_require,
+        'typecheck': typecheck_require,
+        'test': test_require,
     },
-    tests_require=tests_require,
 )
