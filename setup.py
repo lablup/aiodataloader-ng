@@ -60,5 +60,4 @@ setup(
         'typecheck': typecheck_require,
         'test': test_require,
     },
-    tests_require=tests_require,
 )
